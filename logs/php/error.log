@@ -95,3 +95,34 @@ Stack trace:
 #3 /app/public/index.php(17): require('/app/public/wp-...')
 #4 {main}
   thrown in /app/public/wp-includes/link-template.php on line 1134
+[10-May-2018 12:12:05 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 64
+[10-May-2018 12:13:46 UTC] PHP Parse error:  syntax error, unexpected ''excerpt'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[10-May-2018 12:13:53 UTC] PHP Parse error:  syntax error, unexpected ''excerpts'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/university-post-types.php on line 6
+[10-May-2018 12:25:22 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 43 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/front-page.php(43): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[10-May-2018 12:25:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /app/public/wp-content/themes/fictional-university-theme/front-page.php on line 43 and exactly 1 expected in /app/public/wp-includes/link-template.php:1134
+Stack trace:
+#0 /app/public/wp-content/themes/fictional-university-theme/front-page.php(43): get_post_type_archive_link()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-includes/link-template.php on line 1134
+[10-May-2018 12:29:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[10-May-2018 12:29:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/fictional-university-theme/header.php on line 20
+[10-May-2018 13:02:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:03:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:06:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:07:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:09:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:10:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 13:11:33 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /app/public/wp-admin/includes/plugin-install.php on line 168
+[10-May-2018 14:05:27 UTC] PHP Parse error:  syntax error, unexpected ''$query'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 19
+[10-May-2018 14:05:53 UTC] PHP Parse error:  syntax error, unexpected ''$query'' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 19
+[10-May-2018 14:08:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /app/public/wp-content/themes/fictional-university-theme/functions.php on line 20
